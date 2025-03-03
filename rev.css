@@ -1,0 +1,152 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #003366, #00509e);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* Main Content */
+main {
+    padding: 40px 10%;
+}
+
+/* Card Container */
+.card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Card Image */
+.card img {
+    width: 40%;
+    object-fit: cover;
+}
+
+/* Card Text */
+.card .text {
+    padding: 20px;
+    width: 60%;
+}
+
+/* Card Titles */
+.card h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.card p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #003366;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 20px;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card .text {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+.card {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+/* Card Image */
+.card0 img {
+    width: 40%;
+    object-fit: cover;
+}
+
+/* Card Text */
+.card .text0 {
+    padding: 20px;
+    width: 60%;
+}
+
+/* Card Titles */
+.card h2 {
+    color: #003366;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.card p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    margin-bottom: 10px;
+}
